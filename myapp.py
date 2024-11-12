@@ -5,7 +5,7 @@ import webbrowser
 import os
 
 try:
-    from speech_recognition import Recognizer, Microphone, UnknownValueError, RequestError
+    from speech_recognition import Microphone, RequestError, Recognizer, UnknownValueError
 except ImportError:
     print("Module 'speech_recognition' is missing. Install it with 'pip install SpeechRecognition'.")
 
